@@ -7,7 +7,7 @@
 	\node (z3) [state, right of = z2, accepting] {$z_3$};
 	
 	\path [-stealth, thick]
-	(z0) edge [loop above, initial] node {0} (z0)
+	(z0) edge [loop above] node {0} (z0)
 	(z0) edge [bend left] node [above] {1} (z1)
 	
 	(z1) edge [bend left] node [above] {0,1} (z2)

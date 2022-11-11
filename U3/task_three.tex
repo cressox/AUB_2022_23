@@ -1,0 +1,22 @@
+\centering
+\begin{tikzpicture}[shorten >=1pt,node distance=3cm,on grid,>={Stealth[round]},thick]
+	
+	\node (z0) [state, initial, initial text = {}] {$z_0$};
+	\node (z1) [state, right of = z0] {$z_1$};
+	\node (z2) [state, right of = z1] {$z_2$};
+	\node (z3) [state, right of = z2, accepting] {$z_3$};
+	
+	\path [-stealth, thick]
+	(z0) edge [bend right] node [above] {a} (z3)
+	(z0) edge node [above] {b} (z1)
+	
+	(z1) edge [bend left] node [above] {a} (z3)
+	(z1) edge node [above] {b} (z2)
+	
+	(z2) edge node [above] {a} (z3)
+	%(z2) edge [bend left] node [above] {b} (z0)
+	
+	(z3) edge [loop above] node {a,b} (z0);
+	%(z3) edge [bend left] node [above] {b} (z0);
+	
+\end{tikzpicture}
