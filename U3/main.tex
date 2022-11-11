@@ -29,15 +29,17 @@
 	
 	%task one
 	\section*{Aufgabe 1}
+		\tab NFA $M=(\{0,1\},\{a,b,c,d\},\delta,\{a,d\},\{b,d\})$\tab$\delta$:\l
 		\begin{center}
-			$\delta$:\l
-			\include{task_one_nfa.tex}\l
-			NFA $M=(\{0,1\},\{a,b,c,d\},\delta,\{a,d\},\{b,d\})$
+			\include{task_one_nfa.tex}
 			\include{task_one_nfa_transition.tex}
 		\end{center}
 		\subsection*{(a)}
 			\include{task_one_delta_star.tex}
-		\subsection*{(b)}
+			\include{task_one_delta_star_2.tex}
+		\subsection*{(b)}Bestimmen Sie $\{w\in\{0,1\}^*\mid\delta^*(\{a\},w)\cap\{d\}\neq\emptyset\}!$
+			\include{task_one_b.tex}
+			
 		\subsection*{(c)}
 		\begin{center}
 			\include{task_one_transition_dfa.tex}
@@ -47,15 +49,20 @@
 		\end{center}
 	\section*{Aufgabe 2}
 	\subsection*{(a)}
+		\tab$M'=(\{0,1\},Z',\delta^{'},S',Z_E')$\tab$\delta$:\\
 		\begin{center}
 			\include{task_two_a.tex}
+			\include{task_two_a_transition.tex}
 		\end{center}
 	\subsection*{(b)}
+		\tab$M=(\{0,1\},Z,\delta,S,Z_E)$\tab$\delta$:\\
 		\begin{center}
 			\include{task_two_b.tex}
+			\include{task_two_b_transition.tex}
 		\end{center}
 	%task two
 	
+	\pagebreak
 	\section*{Aufgabe 3}
 	%task three
 		\begin{center}
