@@ -1,0 +1,32 @@
+\centering
+\begin{tikzpicture}[shorten >=1pt,node distance=3cm,on grid,>={Stealth[round]},thick]
+	
+	\node (q0) [state, initial, initial text = {}] {$q_0$};
+	\node (q4) [state, accepting, above right of = q0] {$q_4$};
+	\node (empty) [state, below right of = q0] {$\emptyset$};
+	\node (q1) [state, accepting, right of = empty] {$q_1$};
+	\node (q2) [state, below right of = q4] {$q_2$};
+	\node (q3) [state, accepting, right of = q1] {$q_3$};
+	
+	\node (q5) [state, accepting, right of = q4] {$q_5$};
+	
+	\path [-stealth, thick]
+	(empty) edge [loop above] node {0,1} (empty)
+	(q0) edge node [above] {0} (empty)
+	(q0) edge node [above] {1} (q4)
+	
+	(q1) edge node [above] {0} (q3)
+	(q1) edge node [above] {1} (empty)
+	
+	(q2) edge node [right] {0} (q1)
+	(q2) edge node[above] {1} (empty)
+	
+	(q3) edge [bend left] node [above] {0} (empty)
+	(q3) edge node [above] {1} (q2)
+	
+	(q4) edge node [above] {0} (q5)
+	(q4) edge node [right] {1} (q2)
+	
+	(q5) edge [bend left] node [above] {0} (q3)
+	(q5) edge node [left] {1} (q2);
+\end{tikzpicture}

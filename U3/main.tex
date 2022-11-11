@@ -1,0 +1,72 @@
+\documentclass[titlepage]{article}
+\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{tabto} %tabulator mit \tab
+\usepackage{tikz}
+\usetikzlibrary{automata, arrows.meta, positioning, shadows, shapes.geometric} % automaten zeichnen
+\usepackage[utf8]{inputenc}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\renewcommand{\arraystretch}{1.3} %vertikaler abstand von tabellen
+\usepackage[left=20mm, right=15mm, top=25mm, bottom=7mm, paper=a4paper]{geometry}
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\renewcommand{\]}{\right]}
+\renewcommand{\[}{\left[}
+\renewcommand{\)}{\right)}
+\renewcommand{\(}{\left(}
+\renewcommand{\|}{\;|\;}
+\newcommand{\n}{\newline}
+\renewcommand{\l}{\linebreak}
+
+
+
+\begin{document}\begingroup\let\clearpage\relax
+	%header
+	\include{head.tex}
+	
+	%task one
+	\section*{Aufgabe 1}
+		\begin{center}
+			$\delta$:\l
+			\include{task_one_nfa.tex}\l
+			NFA $M=(\{0,1\},\{a,b,c,d\},\delta,\{a,d\},\{b,d\})$
+			\include{task_one_nfa_transition.tex}
+		\end{center}
+		\subsection*{(a)}
+			\include{task_one_delta_star.tex}
+		\subsection*{(b)}
+		\subsection*{(c)}
+		\begin{center}
+			\include{task_one_transition_dfa.tex}
+			$\delta^{'}$:\l
+			\include{task_one_dfa.tex}\l
+			$M^{'}=(\{0,1\},Z',\delta',S',Z_E')$
+		\end{center}
+	\section*{Aufgabe 2}
+	\subsection*{(a)}
+		\begin{center}
+			\include{task_two_a.tex}
+		\end{center}
+	\subsection*{(b)}
+		\begin{center}
+			\include{task_two_b.tex}
+		\end{center}
+	%task two
+	
+	\section*{Aufgabe 3}
+	%task three
+		\begin{center}
+			\include{task_three.tex}
+		\end{center}
+	
+	\section*{Aufgabe 4}
+	%task four
+		\begin{center}
+			\include{task_four.tex}
+		\end{center}
+
+	\endgroup	
+\end{document}
