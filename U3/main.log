@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2022.1.22)  11 NOV 2022 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2022.1.22)  13 NOV 2022 19:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -583,11 +583,10 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box80
 ) (main.aux (head.aux) (task_one_nfa.aux) (task_one_nfa_transition.aux)
 (task_one_delta_star.aux) (task_one_delta_star_2.aux) (task_one_b.aux)
-(task_one_transition_calculation.aux) (task_one_transition_dfa.aux)
-(task_one_dfa.aux) (task_two_a.aux) (task_two_a_transition.aux)
-(task_two_a_proof.aux) (task_two_b.aux) (task_two_b_transition.aux)
-(task_two_b_proof.aux) (task_three.aux) (task_three_transition.aux)
-(task_three_proof.aux) (task_four.aux))
+(task_one_transition_dfa.aux) (task_one_transition_calculation.aux)
+(task_one_dfa.aux) (task_two_a.aux) (task_two_a_transition.aux) (task_two_b.aux
+) (task_two_b_transition.aux) (task_two_b_proof.aux) (task_three.aux)
+(task_three_transition.aux) (task_three_proof.aux) (task_four.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -701,137 +700,429 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  (task_one_b.tex [1
 
-{C:/Users/flxti/AppData/Local/MiKTeX/pdftex/config/pdftex.map}])
-\openout2 = `task_one_transition_calculation.aux'.
-
- (task_one_transition_calculation.tex
+{C:/Users/flxti/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.3 	
-     
+l.7 \begin{cases}
+                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
+! Missing $ inserted.
 <inserted text> 
-                }
-l.3 	
-     
+                $
+l.12 \end{cases}
+                \\\\\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.3 	
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4 	\delta
-           ^*(\{d,b\},1)=
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.5 	
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.5 	
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.5 	
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.6 	\delta
-           ^*(\{b,c,d\},0)=
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.7 	
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.7 	
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.7 	
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.8 	\delta
-           ^*(\{b,c,d\},1)=
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 )
-\openout2 = `task_one_transition_dfa.aux'.
-
- (task_one_transition_dfa.tex)
-\openout2 = `task_one_dfa.aux'.
-
- (task_one_dfa.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 4--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 4--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--44
+
+ []
+
+\openout2 = `task_one_transition_dfa.aux'.
+
+(task_one_transition_dfa.tex)
+\openout2 = `task_one_transition_calculation.aux'.
+
+ (task_one_transition_calculation.tex
+! Missing } inserted.
+<inserted text> 
+                }
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.8 \end{align*}
+                
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8
+.
+(C:\Users\flxti\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.8 \end{align*}
+                
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.8 \end{align*}
+                
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.8 \end{align*}
+                
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.8 \end{align*}
+                
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.8 \end{align*}
+                
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.8 \end{align*}
+                
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.8 \end{align*}
+                
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.8 \end{align*}
+                
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.8 \end{align*}
+                
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \end{align*}
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.8 \end{align*}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.8 \end{align*}
+                
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.8 \end{align*}
+                
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+)
+\openout2 = `task_one_dfa.aux'.
+
+ (task_one_dfa.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
@@ -840,11 +1131,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 (task_two_a.tex)
 \openout2 = `task_two_a_transition.aux'.
 
- (task_two_a_transition.tex [2])
-\openout2 = `task_two_a_proof.aux'.
-
- (task_two_a_proof.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+ (task_two_a_transition.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
@@ -861,14 +1149,6 @@ l.14 		\zz[1]&\nm[$z_0,z_2$]
                             &\nm[$z_0,z_2$]\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-4.
-(C:\Users\flxti\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
@@ -1014,10 +1294,13 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )
 \openout2 = `task_two_b_proof.aux'.
 
- (task_two_b_proof.tex [3]) [4]
+ (task_two_b_proof.tex [3])
 \openout2 = `task_three.aux'.
 
  (task_three.tex)
@@ -1030,22 +1313,21 @@ my insertion and my current dilemma will both disappear.
 (task_three_proof.tex)
 \openout2 = `task_four.aux'.
 
- (task_four.tex) [5] (main.aux (head.aux)
+ (task_four.tex) [4] (main.aux (head.aux)
 (task_one_nfa.aux) (task_one_nfa_transition.aux) (task_one_delta_star.aux)
-(task_one_delta_star_2.aux) (task_one_b.aux)
-(task_one_transition_calculation.aux) (task_one_transition_dfa.aux)
-(task_one_dfa.aux) (task_two_a.aux) (task_two_a_transition.aux)
-(task_two_a_proof.aux) (task_two_b.aux) (task_two_b_transition.aux)
+(task_one_delta_star_2.aux) (task_one_b.aux) (task_one_transition_dfa.aux)
+(task_one_transition_calculation.aux) (task_one_dfa.aux) (task_two_a.aux)
+(task_two_a_transition.aux) (task_two_b.aux) (task_two_b_transition.aux)
 (task_two_b_proof.aux) (task_three.aux) (task_three_transition.aux)
 (task_three_proof.aux) (task_four.aux)) ) 
 Here is how much of TeX's memory you used:
- 16153 strings out of 480224
- 336690 string characters out of 2880103
- 652653 words of memory out of 3000000
+ 16146 strings out of 480224
+ 336356 string characters out of 2880103
+ 648471 words of memory out of 3000000
  32308 multiletter control sequences out of 15000+200000
  539244 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,14n,99p,487b,1065s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,14n,99p,511b,1065s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/flxti/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/flxti/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/flxti/App
@@ -1059,9 +1341,9 @@ s/cm/cmr10.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public
 nts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/flxti/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/flxti/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (5 pages, 141696 bytes).
+Output written on main.pdf (4 pages, 147174 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

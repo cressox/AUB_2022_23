@@ -1,4 +1,13 @@
 
 \begin{align*}
-	\delta^*(\{a\},w)...\text{ Menge der }
+	\delta^*(\{a\},w)...\text{ Menge der möglichen Endzustände, in denen man landet, wenn man }w\text{ abgearbeitet hat.}
 \end{align*}
+Da $\delta^*({a},w)\cup\{d\}\neq\emptyset$ gelten soll, muss $d\in\delta^*({a},w)$. 1. Fall: direkt aus $a$ nach $d$. 2. Fall aus $a$ nach $b$ und dann nach $d$. 3. Fall aus $a$ nach $c$ und dann nach $d$. 4. Fall: einer der drei Fälle und dann aus $d$ nach $c$ und dann nach $b$ und dann wieder nach $d$. \\\\
+Aus Fall 1 bis 4 ergeben sich folgende Muster in den akzeptierten Wörtern:
+\begin{cases}
+	1.\quad w=1=a\\
+	2.\quad w=10=b\\
+	3.\quad w=100=c\\
+	4.\quad w=a100|b100|c100
+\end{cases}\\\\\\
+Der 4. Fall kann als einziger immer wieder angewandt werden ohne, dass die Akzeptanz von $w$ beeinflusst wird. Somit ergibt sich: $\{w\in\{0,1\}^*\mid\delta^*(\{a\},w)\cap\{d\}\neq\emptyset\}=\underline{\{1,10,100\}\cdot\{100\}^*}$

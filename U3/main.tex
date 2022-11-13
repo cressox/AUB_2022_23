@@ -43,22 +43,28 @@
 			\include{task_one_b.tex}
 			
 		\subsection*{(c)}
+		Übergangstabelle des gegebenen NFA $M$:
 		\begin{center}
-			\include{task_one_transition_calculation.tex}
 			\include{task_one_transition_dfa.tex}
+		\end{center}
+		Bestimmung der Einträge in der Übergangstabelle:
+		\begin{center}	
+			\include{task_one_transition_calculation.tex}
+		\end{center}
+		DFA $M'$:
+		\begin{center}
 			$\delta^{'}$:\l
 			\include{task_one_dfa.tex}\l
 			$M^{'}=(\{0,1\},Z',\delta',S',Z_E')$
 		\end{center}
 	\section*{Aufgabe 2}
 	\subsection*{(a)}
-		Der DFA ist mittel Potenzmengenkonstruktion aus dem NFA in (b) entstanden. Die Zustände $z_2$ und $z_3$ wurden entfernt, da Sie nicht erreichbar sind. \\\\
+		Der DFA ist mittel Potenzmengenkonstruktion aus dem NFA in (b) entstanden. Die Zustände $z_2$ und $z_3$ wurden entfernt, da Sie nicht erreichbar sind. Im Teil (b) habe ich den NFA bewiesen. Da dieser DFA auf jenem beruht gilt er ebenso.\\\\
 		\tab$M'=(\{0,1\},Z',\delta^{'},S',Z_E')$\tab$\delta$:\\
 		\begin{center}
 			\include{task_two_a.tex}
 			\include{task_two_a_transition.tex}
 		\end{center}
-		\include{task_two_a_proof.tex}
 	\subsection*{(b)}
 		\tab$M=(\{0,1\},Z,\delta,S,Z_E)$\tab$\delta$:\\
 		\begin{center}
@@ -68,7 +74,6 @@
 		\include{task_two_b_proof.tex}
 	%task two
 	
-	\pagebreak
 	\section*{Aufgabe 3}
 	%task three
 		\begin{center}
