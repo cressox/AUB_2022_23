@@ -1,0 +1,52 @@
+\documentclass[titlepage]{article}
+\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{tabto} %tabulator mit \tab
+\usepackage{tikz}
+\usetikzlibrary{automata, arrows.meta, positioning, shadows, shapes.geometric} % automaten zeichnen
+\usepackage[utf8]{inputenc}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\renewcommand{\arraystretch}{1.3} %vertikaler abstand von tabellen
+\usepackage[left=20mm, right=15mm, top=25mm, bottom=7mm, paper=a4paper]{geometry}
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\renewcommand{\]}{\right]}
+\renewcommand{\[}{\left[}
+\renewcommand{\)}{\right)}
+\renewcommand{\(}{\left(}
+\renewcommand{\|}{\;|\;}
+\newcommand{\n}{\newline}
+\renewcommand{\l}{\linebreak}
+
+
+
+\begin{document}\begingroup\let\clearpage\relax
+	%header
+	\include{head.tex}
+	
+	%task one
+	\section*{Aufgabe 1}
+		\subsection*{(a)}
+			\include{t1_a.tex}
+		\subsection*{(b)}
+			\include{t1_b.tex}
+		\subsection*{(c)}
+			\include{t1_c.tex}
+		\subsection*{(d)}
+			\include{t1_d.tex}
+		\subsection*{(e)}
+			\include{t1_e.tex}
+		\subsection*{(f)}
+			\include{t1_f.tex}
+		\subsection*{(g)}
+			\include{t1_g.tex}
+		\subsection*{(h)}
+			\include{t1_h.tex}
+		
+	\section*{Aufgabe 2}
+		\include{t2.tex}
+	
+\endgroup\end{document}
