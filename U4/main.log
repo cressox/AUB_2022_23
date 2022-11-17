@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.6)  15 NOV 2022 08:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.6)  16 NOV 2022 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -136,6 +136,12 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip53
 \thm@headsep=\skip54
 \dth@everypar=\toks26
+)
+(C:\Users\flxti\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
 (C:\Users\flxti\AppData\Local\Programs\MiKTeX\tex/latex/tabto-ltx\tabto.sty
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
@@ -592,24 +598,24 @@ tex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box84
-) (main.aux (head.aux) (t1_a.aux) (t1_b.aux) (t1_c.aux) (t1_d.aux)
-(t1_e.aux) (t1_f.aux) (t1_g.aux) (t1_h.aux) (t2.aux))
+) (main.aux (head.aux) (pl.aux) (t1_a.aux) (t1_b.aux) (t1_c.aux)
+(t1_d.aux) (t1_e.aux) (t1_f.aux) (t1_g.aux) (t1_h.aux) (t2.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (C:\Users\flxti\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -673,78 +679,506 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 \openout2 = `head.aux'.
 
 (head.tex)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+\openout2 = `pl.aux'.
 
+ (pl.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
 (C:\Users\flxti\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
 (C:\Users\flxti\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
+.
+
+(C:\Users\flxti\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+)
 \openout2 = `t1_a.aux'.
 
+ (t1_a.tex
 
-(t1_a.tex)
+LaTeX Warning: Command \" invalid in math mode on input line 11.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.11 	\end{align*}
+                  
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 11.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.11 	\end{align*}
+                  
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 11.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 11.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.11 	\end{align*}
+                  
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 11.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.11 	\end{align*}
+                  
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 11.
+
+)
 \openout2 = `t1_b.aux'.
 
- (t1_b.tex)
+ (t1_b.tex
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+)
 \openout2 = `t1_c.aux'.
 
- (t1_c.tex)
+ (t1_c.tex
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+)
 \openout2 = `t1_d.aux'.
 
- (t1_d.tex)
+ (t1_d.tex
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+)
 \openout2 = `t1_e.aux'.
 
- (t1_e.tex)
+ (t1_e.tex
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+[1
+
+{C:/Users/flxti/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \openout2 = `t1_f.aux'.
 
- (t1_f.tex)
+ (t1_f.tex
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+)
 \openout2 = `t1_g.aux'.
 
- (t1_g.tex)
+ (t1_g.tex
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+)
 \openout2 = `t1_h.aux'.
 
+ (t1_h.tex
 
-(t1_h.tex)
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 9.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.9 	\end{align*}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 9.
+
+)
 \openout2 = `t2.aux'.
 
- (t2.tex) [1
-
-{C:/Users/flxti/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.aux (h
-ead.aux) (t1_a.aux) (t1_b.aux) (t1_c.aux) (t1_d.aux)
-(t1_e.aux) (t1_f.aux) (t1_g.aux) (t1_h.aux) (t2.aux)) ) 
+ (t2.tex) [2] (main.aux (head.aux) (pl.aux) (t1_a.aux) (t1_b.aux) (t1_c.aux)
+(t1_d.aux) (t1_e.aux) (t1_f.aux) (t1_g.aux) (t1_h.aux) (t2.aux)) ) 
 Here is how much of TeX's memory you used:
- 16574 strings out of 475385
- 350271 string characters out of 2776907
- 691232 words of memory out of 3000000
- 37598 multiletter control sequences out of 15000+600000
- 477416 words of font info for 60 fonts, out of 8000000 for 9000
+ 16876 strings out of 475385
+ 354522 string characters out of 2776907
+ 708721 words of memory out of 3000000
+ 37880 multiletter control sequences out of 15000+600000
+ 478986 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,7n,104p,486b,625s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/flxti/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/flxti
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/U
-sers/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi12.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flxti/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flxti/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/flxti/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flxti/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
-:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on main.pdf (1 page, 150075 bytes).
+ 100i,15n,104p,486b,625s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/flx
+ti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
+0.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmex10.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/flxti/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/flxti/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/flxti/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flxt
+i/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
+ers/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pf
+b><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr5.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/flxti/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/flxti/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/flxti/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/User
+s/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb
+>
+Output written on main.pdf (2 pages, 221700 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
