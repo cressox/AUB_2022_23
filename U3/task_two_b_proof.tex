@@ -1,6 +1,0 @@
-\begin{proof}[Beweis] $"\subseteq"$
-	$\mid w\mid\ge3$ ist trivial. Wir sehen, dass der Automat frühestens nach einer Wortlänge von 3 ein Wort akzeptiert. Denn es muss mindestens $z_0\rightarrow z_1\rightarrow z_2\rightarrow z_3$ abgearbeitet sein um akzeptiert zu werden. Der Übergang von $z_0\rightarrow z_1$ bestimmt das 3. letzte Zeichen. Da $z_0\rightarrow z_1$ nur durch eine $1$ möglich ist, ist garantiert, dass das 3. letzte Zeichen eine 1 ist.
-\end{proof}
-\begin{proof}[Beweis] $"\supseteq"$
-	Jedes Wort ist lesbar, da in jedem Zustand eine 0 oder 1 gelesen werden kann. Jedoch: kann ein Wort akzeptiert werden, so kann es nach beliebiger Anzahl von 0 und 1 in $z_0$ nach $z_1$ wandern, insofern der dritt letzte Buchstabe eine 1 ist (andern falls bleibt es in $z_0$). von dort kann es dann mit 2 variablen Buchstaben nach $z_3$ wo es schließlich akzeptiert wird. 
-\end{proof}
