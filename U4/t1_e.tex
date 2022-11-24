@@ -1,10 +1,52 @@
-\begin{proof}[Beweis]
-	\begin{math}
-		Ann:\;E\in REG\Rightarrow\;es\;gilt\;PL\Leftrightarrow\;Sei\;k\;Pumpingzahl:
-	\end{math}
-	\begin{align*}
-		&Wähle\;x=...,\mid x\mid\ge k\\
-		&Sei\;x=uvw\;eine\;geiegnete\;Zerlegung\;gemäß\;PL:\mid v\mid\ge1,\mid uv\mid\le n\\
-		&\rightarrow v=...
-	\end{align*}
-\end{proof}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,node distance=3cm,on grid,>={Stealth[round]},thick]
+	
+	\node (s) [state, initial above, accepting, initial text = {}] {$\equiv_3=0$};
+	\node (z1) [state, right of = s] {$\equiv_3=1_a$};
+	\node (z2) [state, below of = z1] {$\equiv_3=2_a$};
+	\node (z3) [state, left of = s] {$\equiv_3=1_b$};
+	\node (z4) [state, below of = z3] {$\equiv_3=2_b$};
+	
+	\path [-stealth, thick]
+	(s) edge [bend left] node [above] {$a$} (z1)
+	(s) edge [bend left] node [above] {$b$} (z3)
+	
+	(z1) edge [bend left] node [left] {$a$} (z2)
+	(z1) edge [bend left] node [above] {$b$} (s)
+	
+	(z2) edge node [left] {$a$} (s)
+	(z2) edge [bend left] node [left] {$b$} (z1)
+	
+	(z3) edge [bend left] node [left] {$b$} (z4)
+	(z3) edge [bend left] node [above] {$a$} (s)
+	
+	(z4) edge node [left] {$b$} (s)
+	(z4) edge [bend left] node [left] {$a$} (z3);
+\end{tikzpicture}
+
+\newcommand{\q[1]}{$\{q_{#1}\}$}
+\newcommand{\qq[1]}{$q_{#1}$}
+\newcommand{\nz[2]}{$#1_#2$}
+\newcommand{\nm[1]}{\{#1\}}
+$\delta:$
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Zustand & $a$ & $b$ \\
+		\hline\hline
+		$\emptyset$&$\emptyset$&$\emptyset$\\
+		\hline
+		$\equiv_3=0$&\nm[$\equiv_3=1_a$]&\nm[$\equiv_3=1_b$]\\
+		\hline
+		$\equiv_3=1_a$&\nm[$\equiv_3=2_a$]&\nm[$\equiv_3=0$]\\
+		\hline
+		$\equiv_3=2_a$&\nm[$\equiv_3=0$]&\nm[$\equiv_3=1_a$]\\
+		\hline
+		$\equiv_3=1_b$&\nm[$\equiv_3=0$]&\nm[$\equiv_3=2_b$]\\
+		\hline
+		$\equiv_3=2_b$&\nm[$\equiv_3=1_b$]&\nm[$\equiv_3=0$]\\
+		\hline
+	\end{tabular}
+\end{table}
+\end{center}

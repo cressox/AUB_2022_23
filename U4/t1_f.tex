@@ -3,8 +3,14 @@
 		Ann:\;F\in REG\Rightarrow\;es\;gilt\;PL\Leftrightarrow\;Sei\;k\;Pumpingzahl:
 	\end{math}
 	\begin{align*}
-		&Wähle\;x=...,\mid x\mid\ge k\\
-		&Sei\;x=uvw\;eine\;geiegnete\;Zerlegung\;gemäß\;PL:\mid v\mid\ge1,\mid uv\mid\le n\\
-		&\rightarrow v=...
+		&Wähle\;x=\underbrace{0^{k-m}}_u\underbrace{0^m}_v\underbrace{0^k}_w,\mid x\mid\ge k;k\ge m\ge1\\\
+		&Sei\;x=uvw\;eine\;geiegnete\;Zerlegung\;gemäß\;PL:\mid v\mid\ge1,\mid uv\mid\le k\\
+		&\mid v\mid=k-m\ge 1\;und\;\mid uv\mid=k\le k\\
+		&\overset{i=2}{\Longrightarrow}x=0^{k-2}0^{m^2}0^k=0^k0^m0^k=0^{2^k+m}\\
+		&Betrachten\;wir\;die\;Exponenten:\\
+		&2^k<2^k+m\le2^k+k,\quad da\;gilt:k\ge m\ge1\\
+		&mit\;k<2^k\;folgt\\
+		&2^k<2^k+m<2^{k+1}\\
+		&\Rightarrow uv^2w\notin F\quad\lightning
 	\end{align*}
 \end{proof}

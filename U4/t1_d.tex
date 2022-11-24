@@ -1,10 +1,38 @@
-\begin{proof}[Beweis]
-	\begin{math}
-		Ann:\;D\in REG\Rightarrow\;es\;gilt\;PL\Leftrightarrow\;Sei\;k\;Pumpingzahl:
-	\end{math}
-	\begin{align*}
-		&Wähle\;x=...,\mid x\mid\ge k\\
-		&Sei\;x=uvw\;eine\;geiegnete\;Zerlegung\;gemäß\;PL:\mid v\mid\ge1,\mid uv\mid\le n\\
-		&\rightarrow v=...
-	\end{align*}
+\newcommand{\nm[1]}{\{#1\}}
+\begin{proof}[Jedes Wort gerader Länge ist in D]
+	Wenn $w\in\{a,b\}^*$ gerade ist, dann gibt es eine Zahl $k\in\mathbb{N}$, so dass $\mid w\mid=2k\Rightarrow w$ kann in zwei Teile der Länge $k$ aufgeteilt werden: $x,y\in\{a,b\}^*:\mid x\mid=\mid y\mid=k\Rightarrow w\in D$
 \end{proof}
+\begin{proof}[Jedes Wort in L ist gerader Länge]
+	Für jedes Wort in $D$ mit gerader Länge gilt: $Sei\;w\in D$ nach Definition von $D$ folgt: $\exists x,y\in\{a,b\}^*:\mid x\mid=\mid y\mid$ und $w=xy\Rightarrow\mid w\mid=\mid x\mid+\mid y\mid=2\mid x\mid\Rightarrow w$ hat gerade Länge.
+\end{proof}
+\noindent
+$D\in REG.$
+\begin{center}
+	$M=(\{a,b\},\{q_0,q_1\},\delta,\{q_0\},\{q_0\})$\\
+	\begin{tikzpicture}[shorten >=1pt,node distance=3cm,on grid,>={Stealth[round]},thick]
+		
+		\node (q0) [state,initial, accepting, initial text = {}] {$q_0$};
+		\node (q1) [state, right of = q0] {$q_1$};
+		
+		\path [-stealth, thick]
+		(q0) edge [bend left] node [above] {$a,b$} (q1)
+		(q1) edge [bend left] node [above] {$a,b$} (q0);
+	\end{tikzpicture}
+
+	$\delta:$
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Zustand & $a$ & $b$ \\
+			\hline\hline
+			$\emptyset$&$\emptyset$&$\emptyset$\\
+			\hline
+			$q_0$&\nm[$q_1$]&\nm[$q_1$]\\
+			\hline
+			$q_1$&\nm[$q_0$]&\nm[$q_0$]\\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{center}
+\qed

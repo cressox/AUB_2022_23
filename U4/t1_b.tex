@@ -3,8 +3,9 @@
 		Ann:\;B\in REG\Rightarrow\;es\;gilt\;PL\Leftrightarrow\;Sei\;k\;Pumpingzahl:
 	\end{math}
 	\begin{align*}
-		&Wähle\;x=...,\mid x\mid\ge k\\
-		&Sei\;x=uvw\;eine\;geiegnete\;Zerlegung\;gemäß\;PL:\mid v\mid\ge1,\mid uv\mid\le n\\
-		&\rightarrow v=...
+		&Wähle\;x=\underbrace{0^k}_u\underbrace{0^{k-m}}_v\underbrace{10^m}_w,\mid x\mid\ge k,k>m\\
+		&Sei\;x=uvw\;eine\;geiegnete\;Zerlegung\;gemäß\;PL:\mid v\mid\ge1,\mid uv\mid\le k\\
+		&\mid v\mid=\underbrace{k-m\ge1}_{k>m}\text{ und }\mid uv\mid=k\le k\\
+		&\overset{i=0}{\Longrightarrow}x=uv^0w=0^m10^m\notin B\quad\lightning
 	\end{align*}
 \end{proof}
