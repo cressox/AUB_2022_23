@@ -1,0 +1,14 @@
+\centering
+\newcommand{\mynode[4]}{\node (#2) [#3] {#4};}
+\renewcommand{\|}{\;|\;}
+\begin{align*}
+	G_1=(\{a,b\},\{S,A,B,E1,E2\},S,R)
+	\text{ mit }R:
+	\begin{cases}
+		S&\rightarrow aA\|Bb\\
+		A&\rightarrow E_1b\|b\\
+		B&\rightarrow aE_2\|a\\
+		E_1&\rightarrow aA\\\
+		E_2&\rightarrow Bb
+	\end{cases}
+\end{align*}

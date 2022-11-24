@@ -1,0 +1,17 @@
+\centering
+\begin{tikzpicture}[shorten >=1pt,node distance=3cm,on grid,>={Stealth[round]},thick]
+	
+	\node (a) [state, initial, initial text = {}] {$a$};
+	\node (b) [state, accepting, right of = a] {$b$};
+	\node (c) [state, below of = a] {$c$};
+	\node (d) [state, accepting, right of = c] {$d$};
+	
+	\path [-stealth, thick]
+	(a) edge node [above] {1} (b)
+	(a) edge node [left] {1} (c)
+	(a) edge node [above] {1} (d)
+	(b) edge node [right] {0} (d)
+	(c) edge node [below] {0} (b)
+	(d) edge node [above] {1} (c);
+	
+\end{tikzpicture}

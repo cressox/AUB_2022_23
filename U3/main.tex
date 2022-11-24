@@ -1,0 +1,92 @@
+\documentclass[titlepage]{article}
+\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{tabto} %tabulator mit \tab
+\usepackage{tikz}
+\usetikzlibrary{automata, arrows.meta, positioning, shadows, shapes.geometric} % automaten zeichnen
+\usepackage[utf8]{inputenc}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\renewcommand{\arraystretch}{1.3} %vertikaler abstand von tabellen
+\usepackage[left=20mm, right=15mm, top=25mm, bottom=7mm, paper=a4paper]{geometry}
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\renewcommand{\]}{\right]}
+\renewcommand{\[}{\left[}
+\renewcommand{\)}{\right)}
+\renewcommand{\(}{\left(}
+\renewcommand{\|}{\;|\;}
+\newcommand{\n}{\newline}
+\renewcommand{\l}{\linebreak}
+
+
+
+\begin{document}\begingroup\let\clearpage\relax
+	%header
+	\include{head.tex}
+	
+	%task one
+	\section*{Aufgabe 1}
+		\tab NFA $M=(\{0,1\},\{a,b,c,d\},\delta,\{a,d\},\{b,d\})$\tab$\delta$:\l
+		\begin{center}
+			\include{task_one_nfa.tex}
+			\include{task_one_nfa_transition.tex}
+		\end{center}
+	
+		\subsection*{(a)}
+			\include{task_one_delta_star.tex}
+			\include{task_one_delta_star_2.tex}
+			
+		\subsection*{(b)}Bestimmen Sie $\{w\in\{0,1\}^*\mid\delta^*(\{a\},w)\cap\{d\}\neq\emptyset\}!$
+			\include{task_one_b.tex}
+			
+		\subsection*{(c)}
+		Übergangstabelle des gegebenen NFA $M$:
+		\begin{center}
+			\include{task_one_transition_dfa.tex}
+		\end{center}
+		Bestimmung der Einträge in der Übergangstabelle:
+		\begin{center}	
+			\include{task_one_transition_calculation.tex}
+		\end{center}
+		DFA $M'$:
+		\begin{center}
+			$\delta^{'}$:\l
+			\include{task_one_dfa.tex}\l
+			$M^{'}=(\{0,1\},Z',\delta',S',Z_E')$
+		\end{center}
+	\section*{Aufgabe 2}
+	\subsection*{(a)}
+		Der DFA ist mittel Potenzmengenkonstruktion aus dem NFA in (b) entstanden. Die Zustände $z_2$ und $z_3$ wurden entfernt, da Sie nicht erreichbar sind. Im Teil (b) habe ich den NFA bewiesen. Da dieser DFA auf jenem beruht gilt er ebenso.\\\\
+		\tab$M'=(\{0,1\},Z',\delta^{'},S',Z_E')$\tab$\delta$:\\
+		\begin{center}
+			\include{task_two_a.tex}
+			\include{task_two_a_transition.tex}
+		\end{center}
+	\subsection*{(b)}
+		\tab$M=(\{0,1\},Z,\delta,S,Z_E)$\tab$\delta$:\\
+		\begin{center}
+			\include{task_two_b.tex}
+			\include{task_two_b_transition.tex}
+		\end{center}
+		\include{task_two_b_proof.tex}
+	%task two
+	
+	\section*{Aufgabe 3}
+	%task three
+		\begin{center}
+			\include{task_three.tex}
+			\include{task_three_transition.tex}
+			\include{task_three_proof.tex}
+		\end{center}
+	
+	\section*{Aufgabe 4}
+	%task four
+		\begin{center}
+			\include{task_four.tex}
+		\end{center}
+
+	\endgroup	
+\end{document}

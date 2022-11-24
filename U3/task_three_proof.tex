@@ -1,0 +1,6 @@
+\begin{proof}[Beweis] $"\subseteq"$
+	Mittels eines a's kann in jedem Zustand ein Wort akzeptiert werden. Sollte jedoch nach den ersten 2 gelesenen Buchstaben kein a dabei gewesen sein, also der Fall, dass man in $z_2$ sich befindet, so kann nur durch ein a in $z_3$ übergegangen werden. Alle anderen Wörter sind nicht lesbar, $z_2$ bildet bei Eingabe eines b's in $\emptyset$ ab. Somit ist sichergestellt, dass der NFA nur die  Wörter akzeptiert, die laut Aufgabenstellung zulässig sind.
+\end{proof}
+\begin{proof}[Beweis] $"\supseteq"$
+	Jedes Wort, dass ein a unter den ersten 3 Buchstaben enthält landet in $z_3$. Von dort aus kann es beliebig lang sein und immer akzeptiert werden.
+\end{proof}
