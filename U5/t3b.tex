@@ -1,0 +1,10 @@
+\begin{align*}
+	G_2=(\{a,b\},\{S,R,L\},S,P)&&&&&&&&&&&\\
+	\text{mit }P:
+	\begin{cases}
+		S&\rightarrow aRa\mid bLb\\
+		R&\rightarrow aRa\mid bRb\mid aRb\mid bRa\mid a\\
+		L&\rightarrow aLa\mid bLb\mid aLb\mid bLa\mid b
+	\end{cases}
+\end{align*}
+Initial wird entschieden ob am Rand außen $a$ oder $b$ ist. Von dann an kann beliebig mit $a$ oder $b$ $u$ und $v$ befüllt werden. Jedoch merkt man sich ob man $a$ oder $b$ am Rand außen hat. das Wort kann dann zum Schluss nur in der Mitte den selben Buchstaben haben um akzeptiert zu werden.

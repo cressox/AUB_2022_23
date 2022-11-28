@@ -1,0 +1,11 @@
+\begin{align*}
+	G_1=(\{a,b,c\},\{S,A,B,C, K\},S,R)&&&&&&&&&&&\\
+	\text{mit }R:
+	\begin{cases}
+		S&\rightarrow bKc\mid aA\mid a\mid b\mid c\mid\lambda\\
+		K&\rightarrow bK\mid Kc\mid b\mid c\\
+		A&\rightarrow aA\mid bBc\\
+		B&\rightarrow bBc\mid bc \\
+	\end{cases}
+\end{align*}
+Initial wird entschieden ob $a$ in dem Wort auftreten oder nicht. Wenn dies der Fall ist, dass $a$ auftritt, dann muss $j=k$ sein. Hierfür ist das Nichtterminal $A$ vorgesehen. In $A$ können noch beliebig viele $a$ hinzugefügt werden, bis man über geht in das erzeugen des ersten $bc$. $b$ und $c$ werden immer zusammen erzeugt und dies beliebig oft. Man kann mit den Nichtterminalen $bc$ das Wort dann irgendwann beenden und hat die Bedingung $j=k$ sichergestellt. Sollte hingegen $a$ überhaupt nicht vorkommen, so spielt es keine Rolle wie oft $b$ und $c$ auftreten. Hierfür ist das Nichtterminal $K$ vorgesehen. In $K$ kann jeder Zeit mit $b$ oder $c$ beendet werden oder ein $b$ oder $c$ erzeugt werden. Die Spezialfälle sind in $S$ mit beachtet: Wenn $a$ nicht existiert kann direkt mit $b,c,\lambda$ beendet werden. Wenn $a$ mindestens einmal existiert kann auch direkt beendet werden.

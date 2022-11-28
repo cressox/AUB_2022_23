@@ -1,0 +1,17 @@
+\begin{proof}[Beweis]
+	\begin{math}
+		Ann:\;L\in REG\Rightarrow\;es\;gilt\;PL\Leftrightarrow\;Sei\;p\;Pumpinglänge:
+	\end{math}
+	\begin{align*}
+		&Wähle\;wort=\underbrace{a}_u
+		\underbrace{
+			\underbrace{b^{k_x}}_x
+			\underbrace{b^{k_y}}_y
+			\underbrace{b^{k_z}}_z
+		}_v
+		\underbrace{aa^pa}_w=a\cdot b^p\cdot a\cdot a^p\cdot a\in L
+		,k_x+k_y+k_z=p,k_y\ge1,\mid xy\mid\ge p\\
+		&Sei\;wort=uxyzw\;eine\;geiegnete\;Zerlegung\;gemäß\;PL:\\
+		&\overset{i=0}{\Longrightarrow}uxy^0z=ab^{p-k_y}aa^pa\overset{p-k_y\neq p}{\Longrightarrow}\mid u\mid\neq\mid v\mid\Rightarrow L\notin REG
+	\end{align*}
+\end{proof}

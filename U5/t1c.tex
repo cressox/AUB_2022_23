@@ -1,0 +1,29 @@
+Um nun zu zeigen, dass $L\notin REG$ müssen wir die allgemeine Definition des PL für Reguläre Sprachen verwenden:
+
+Sei $A\in REG$. $\exists p\ge1\;(Pumpinglänge)\;:\forall uwv\in A:\mid uwv\mid\ge p:uwv=uxyzv:$
+\begin{enumerate}
+	\item $\mid xy\mid\le p$ \\
+	\item $\mid y\mid\ge1$ \\
+	\item $\forall i\ge0: uxy^izv\in A$ 
+\end{enumerate}
+\noindent
+Die von uns bisher verwendete Version folgt einem Spezialfall in dem $u$ und $v$ leer sind. Diese Version des PL kann für deutlich mehr Sprachen die nicht-Regularität zeigen, da Sie striktere Voraussetzungen für $A$ birgt.\\\\
+Somit lässt sich nun zeigen:
+
+\begin{proof}[Beweis]
+	\begin{math}
+		Ann:\;L\in REG\Rightarrow\;es\;gilt\;PL\Leftrightarrow\;Sei\;p\;Pumpinglänge:
+	\end{math}
+	\begin{align*}
+		&Wähle\;wort=\underbrace{a^p}_u
+		\underbrace{
+		\underbrace{b^{k_x}}_x
+		\underbrace{b^{k_y}}_y
+		\underbrace{b^{k_z}}_z
+		}_v
+		\underbrace{c^p}_w
+		,k_x+k_y+k_z=p,k_y\ge1,\mid xy\mid\ge p\\
+		&Sei\;wort=uxyzw\;eine\;geiegnete\;Zerlegung\;gemäß\;PL:\\
+		&\overset{i=0}{\Longrightarrow}uxy^0z=a^pb^{p-k_y}c^p\overset{p-k_y\neq p}{\Longrightarrow}L\notin REG
+	\end{align*}
+\end{proof}
