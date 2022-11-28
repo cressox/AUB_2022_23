@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.6)  28 NOV 2022 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.6)  28 NOV 2022 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -809,7 +809,7 @@ LaTeX Warning: Command \ss invalid in math mode on input line 28.
 {C:/Users/flxti/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 [2]
 ! Undefined control sequence.
-l.113 			$\equiv_3=0$&\nm
+l.130 			$\equiv_3=0$&\nm
                          [$\equiv_3=0$]&\nm[$\equiv_3=1$]\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -818,7 +818,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.113 			$\equiv_3=0$&\nm[$\equiv_3=0$]&\nm
+l.130 			$\equiv_3=0$&\nm[$\equiv_3=0$]&\nm
                                            [$\equiv_3=1$]\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -827,7 +827,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.115 			$\equiv_3=1$&\nm
+l.132 			$\equiv_3=1$&\nm
                          [$\equiv_3=2$]&\nm[$\equiv_3=0$]\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -836,7 +836,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.115 			$\equiv_3=1$&\nm[$\equiv_3=2$]&\nm
+l.132 			$\equiv_3=1$&\nm[$\equiv_3=2$]&\nm
                                            [$\equiv_3=0$]\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -845,7 +845,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.117 			$\equiv_3=1$&\nm
+l.134 			$\equiv_3=1$&\nm
                          [$\equiv_3=1]$&\nm[$\equiv_3=2$]\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -854,7 +854,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.117 			$\equiv_3=1$&\nm[$\equiv_3=1]$&\nm
+l.134 			$\equiv_3=1$&\nm[$\equiv_3=1]$&\nm
                                            [$\equiv_3=2$]\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -927,19 +927,19 @@ I'm changing \accent to \mathaccent here; wish me luck.
 
 LaTeX Warning: Command \ss invalid in math mode on input line 16.
 
-)
+[3])
 \openout2 = `t3b.aux'.
 
- (t3b.tex) [3] (main.aux (head.aux) (t1a.aux) (t1b.aux) (t1c.aux) (t2.aux)
+ (t3b.tex) [4] (main.aux (head.aux) (t1a.aux) (t1b.aux) (t1c.aux) (t2.aux)
 (t3a.aux) (t3b.aux)) ) 
 Here is how much of TeX's memory you used:
- 16931 strings out of 475385
- 354605 string characters out of 2776907
- 713371 words of memory out of 3000000
- 37972 multiletter control sequences out of 15000+600000
+ 16958 strings out of 475385
+ 355039 string characters out of 2776907
+ 712149 words of memory out of 3000000
+ 37999 multiletter control sequences out of 15000+600000
  473730 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,22n,104p,1226b,1138s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 100i,22n,104p,1253b,1150s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmbx10.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/flxti/AppData/Local/Programs/
@@ -950,14 +950,15 @@ lxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:
 /Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7
 .pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmr10.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr7.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/flxti/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/flxti/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (3 pages, 179205 bytes).
+msfonts/cm/cmr5.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb><C:/Users/flxti/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flxti/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/flxti/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/flxti/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (4 pages, 189510 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
