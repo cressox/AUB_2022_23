@@ -1,0 +1,50 @@
+\documentclass[titlepage]{article}
+\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{stmaryrd} %ligtning
+
+\usepackage{tabto} %tabulator mit \tab
+\usepackage{tikz}
+\usetikzlibrary{automata, arrows.meta, positioning, shadows, shapes.geometric} % automaten zeichnen
+\usepackage[utf8]{inputenc}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\renewcommand{\arraystretch}{1.3} %vertikaler abstand von tabellen
+\usepackage[left=20mm, right=15mm, top=25mm, bottom=7mm, paper=a4paper]{geometry}
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\renewcommand{\]}{\right]}
+\renewcommand{\[}{\left[}
+\renewcommand{\)}{\right)}
+\renewcommand{\(}{\left(}
+\renewcommand{\|}{\;|\;}
+\newcommand{\n}{\newline}
+\renewcommand{\l}{\linebreak}
+
+
+
+\begin{document}\begingroup\let\clearpage\relax
+	%header
+	\include{head.tex}
+	
+	%task one
+	\paragraph{Aufgabe 1} Untersuchen Sie, ob die folgenden Sprachen über $\{a,b\}$ bzw. $\{a,b,c\}$ kontextfrei sind:
+		\paragraph{(a)} $L_1=\{w\mid w\in\{a,b,c\}^*,\#_a(w)<\#_b(w)<\#_c(w)\}$
+		\include{t1a.tex}
+		\paragraph{(b)}  $L_2=\{a^nb^mc^k\mid n,m,k\in\mathbb{N},n+m=k\}$
+		\include{t1b.tex} 
+		\paragraph{(c)} $L_3=\{a^nb^mc^k\mid n,m,k\in\mathbb{N},n\cdot m=k\}$
+		\include{t1c.tex} 
+		\paragraph{(d)} $A=\{0^n1^{n+m}0^m\mid n,m\in\mathbb{N},n>m>0\}$
+		\include{t1d.tex} 
+		\paragraph{(e)} $L_4=\{x\$y\mid x,y\in\{a,b\}^*,\#_a(x)=\mid y\mid\}$
+		\include{t1e.tex}
+		\paragraph{(f)} $D=\{a^ib^jc^k\mid i,j\in\mathbb{N},i\neq j\}$
+		\include{t1f.tex}
+	
+	\paragraph{Aufgabe 2} Konstruieren Sie einen Kellerautomaten, der die Sprache $\{w\in\{a,b\}^*\mid\#_a(w)=\#_b(w)\}$ akzeptiert.
+	\include{t2.tex}
+	
+	\endgroup\end{document}

@@ -1,0 +1,29 @@
+Ann: sei $L_3\in CF\Rightarrow\exists n\in\mathbb{N}:\forall x\in L_3\;mit\;\mid x\mid\ge n:\exists x=uv_1\tilde{v}v_2w\;mit\;\mid v_1v_2\mid\ge1,\mid v_1\tilde{v}v_2\mid\le n:\forall i\in\mathbb{N}:uv_1^i\tilde{v}v_2^iw\in L_3$:
+\noindent\\\\
+\begin{math}
+	Wähle\;x=a^nb^nc^{n^2},\;mit\\\\
+	u=a^{n-k_1-k_2-k_3}\\
+	v_1=a^{k_1}\\
+	\tilde{v}=a^{k_2}\\
+	v_2=a^{k_3}\\
+	w=b^nc^{n^2}\\
+	mit\;k_1+k_2+k_3\le n\\\\
+	\overset{i=0}{\Longrightarrow}a^{n-k_1-k_3}b^nc^{n^2}\Rightarrow L_3\notin CF
+	\\\\Oder:\\\\
+	u=a^n\\
+	v_1=b^{k_1}\\
+	\tilde{v}=b^{k_2}\\
+	v_2=b^{k_3}\\
+	w=c^{n^2}\\
+	mit\;k_1+k_2+k_3=n\\\\
+	\overset{i=0}{\Longrightarrow}a^nb^{k_2}c^{n^2}\Rightarrow L_3\notin CF
+	\\\\Oder:\\\\
+	u=a^nb^n\\
+	v_1=c^{k_1}\\
+	\tilde{v}=c^{k_2}\\
+	v_2=c^{k_3}\\
+	w=c^{n^2-k_1-k_2-k_3}\\
+	mit\;k_1+k_2+k_3\le n\\\\
+	\overset{i=0}{\Longrightarrow}a^nb^nc^{n^2-k_1-k_3}\Rightarrow L_3\notin CF
+\end{math}\\
+Man könnte auch noch in a und b oder in b und c pumpen, ebenso würde man durch pumpen ein nicht akzeptierbares Wort erhalten.
