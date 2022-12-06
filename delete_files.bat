@@ -1,4 +1,3 @@
-del \*.aux
 @echo off
 CD C:\Users\flxti\Dropbox\UNI\AUB_2022_23\AUB_2022_23 "root folder"
 for /F "delims=" %%G in ('dir /b') do (
